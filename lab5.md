@@ -1,6 +1,5 @@
 # Lab 5  
 ## Part 1  
-### Edstem Post:  
 file structure:  
 lab7  
 &nbsp;&nbsp;-lib  
@@ -10,6 +9,7 @@ lab7
 &nbsp;&nbsp;  -ListExamples.java  
 &nbsp;&nbsp;  -ListExamplesTests.java  
 &nbsp;&nbsp;  -test.sh  
-  
+### Edstem Post:  
+
   
   
