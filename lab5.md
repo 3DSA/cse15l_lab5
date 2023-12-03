@@ -14,7 +14,8 @@ lab7
 &nbsp;&nbsp;  -test.sh  
 lab7
 - lib3
-	-  lab3 
+	- hamcrest-core-1.3.jar
+ - junit-4.13.2.jar
 #### ListExamples.java  
 ```java
 import java.util.ArrayList;
