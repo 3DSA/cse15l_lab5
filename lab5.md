@@ -13,7 +13,7 @@ lab7
 - ListExamplesTests.java
 - test.sh  
 #### ListExamples.java  
-```java
+```ruby
 import java.util.ArrayList;
 import java.util.List;
 
