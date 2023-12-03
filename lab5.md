@@ -173,7 +173,7 @@ lab7
 - .gitignore
 - ListExamples.java
 - ListExamplesTests.java
-- test.sh
+- test.sh  
 #### Contents of each file before bug fix:  
 #### ListExamples.java  
   ```java
