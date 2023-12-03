@@ -12,9 +12,6 @@ lab7
 &nbsp;&nbsp;  -ListExamples.java  
 &nbsp;&nbsp;  -ListExamplesTests.java  
 &nbsp;&nbsp;  -test.sh  
--lab 3  
-	-lab4  
- 	-lab5  
 #### ListExamples.java  
 ```ruby
 import java.util.ArrayList;
