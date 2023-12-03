@@ -1,5 +1,6 @@
 # Lab 5  
 ## Part 1  
+  
 ### Edstem Post:  
 ![Image](terminal_error.png)  
 Student: Hi! I was trying to run the tests from lab 7 after fixing some errors but this new problem has popped up. I checked the `ListExamples.java` file's methods, but I am still not able to find the problem. Can anybody help? I have attached the code blocks for `ListExamples.java` and `ListExamplesTests.java`  
