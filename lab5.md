@@ -174,6 +174,7 @@ lab7
 - ListExamples.java
 - ListExamplesTests.java
 - test.sh  
+  
 #### Contents of each file before bug fix:  
 #### ListExamples.java  
   ```java
