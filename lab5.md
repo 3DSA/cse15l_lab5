@@ -264,4 +264,5 @@ bash test.sh
 
 ## Part 2  
 ### Reflection:  
+I had a great time in CSE 15L lab. I learned something new every week and shortcuts for everything. Learning scripting was really cool. Writing a set of instructions for a machine to execute was cool to learn, and I can see how I can expand on that in the future, such as asking it always to execute a command at a certain time. JDB commands are also really cool with the way you can manipulate programs. Stopping it at certain lines to see the variables' values at that instance is useful. Probably the most important skill I learned in 15L was how to use GitHub, as it's super important to have for anything. 
 
