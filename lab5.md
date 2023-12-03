@@ -11,9 +11,10 @@ lab7
 - .gitignore
 - ListExamples.java
 - ListExamplesTests.java
-- test.sh  
+- test.sh
+WORK NOW FUCK
 #### ListExamples.java  
-```java
+```
 import java.util.ArrayList;
 import java.util.List;
 
@@ -68,7 +69,7 @@ class ListExamples {
 }
 
 ```  
-`L` #### ListExamples.java  
+#### ListExamples.java  
 ```java
 import static org.junit.Assert.*;
 import org.junit.*;
