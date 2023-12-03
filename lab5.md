@@ -67,8 +67,7 @@ class ListExamples {
 
 } 
 ```  
-  `` #### ListExamples.java  
-
+#### ListExamples.java  
 ```java
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -158,7 +157,7 @@ class ListExamples {
 
 
 }
-```
+```  
 ### Setup:  
 file structure:    
 lab7
@@ -171,7 +170,7 @@ lab7
 - test.sh
 #### Contents of each file before bug fix:
 #### ListExamples.java  
-```java
+  ```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -224,7 +223,7 @@ class ListExamples {
 
 
 } 
-```
+```  
 #### ListExamples.java  
 ```java
 import static org.junit.Assert.*;
@@ -249,7 +248,7 @@ public class ListExamplesTests {
         }
 
 }
-```
+```  
 #### test.sh  
 ```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
