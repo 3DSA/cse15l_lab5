@@ -12,7 +12,10 @@ lab7
 - ListExamples.java
 - ListExamplesTests.java
 - test.sh
-WORK NOW FUCK
+
+
+
+    
 #### ListExamples.java  
 ```
 import java.util.ArrayList;
