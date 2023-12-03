@@ -1,5 +1,8 @@
 # Lab 5  
 ## Part 1  
+### Edstem Post:  
+![Image](terminal_error.png)  
+Student: Hi! I was trying to run the tests from lab 7 after fixing some errors but this new problem has popped up. I checked the `ListExamples.java` file's methods, but I am still not able to find the problem. Can anybody help?  
 file structure:  
 lab7  
 &nbsp;&nbsp;-lib  
@@ -9,10 +12,58 @@ lab7
 &nbsp;&nbsp;  -ListExamples.java  
 &nbsp;&nbsp;  -ListExamplesTests.java  
 &nbsp;&nbsp;  -test.sh  
-### Edstem Post:  
-![Image](terminal_error.png)  
+#### ListExamples.java
+```
+import java.util.ArrayList;
+import java.util.List;
+
+interface StringChecker { boolean checkString(String s); }
+
+class ListExamples {
+
+  // Returns a new list that has all the elements of the input list for which
+  // the StringChecker returns true, and not the elements that return false, in
+  // the same order they appeared in the input list;
+  static List<String> filter(List<String> list, StringChecker sc) {
+    List<String> result = new ArrayList<>();
+    for(String s: list) {
+      if(sc.checkString(s)) {
+        //change result.add(s); -> result.add(0,s);
+        result.add(s);
+      }
+    }
+    return result;
+  }
 
 
+  // Takes two sorted list of strings (so "a" appears before "b" and so on),
+  // and return a new list that has all the strings in both list in sorted order.
+  static List<String> merge(List<String> list1, List<String> list2) {
+    List<String> result = new ArrayList<>();
+    int index1 = 0, index2 = 0;
+    while(index1 < list1.size() && index2 < list2.size()) {
+      if(list1.get(index1).compareTo(list2.get(index2)) < 0) {
+        result.add(list1.get(index1));
+        index1 += 1;
+      }
+      else {
+        result.add(list2.get(index2));
+        index2 += 1;
+      }
+    }
+    while(index1 < list1.size()) {
+      result.add(list1.get(index1));
+      // change index2 below to index1 to fix test
+      index2 += 1;
+    }
+    while(index2 < list2.size()) {
+      result.add(list2.get(index2));
+      // change index1 below to index2 to fix test
+      index1 += 1;
+    }
+    return result;
+  }
 
-  
-  
+
+} 
+```
