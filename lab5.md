@@ -13,11 +13,10 @@ lab7
 - ListExamplesTests.java
 - test.sh
 
+` d`  
 
-
-    
 #### ListExamples.java  
-```
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -70,7 +69,6 @@ class ListExamples {
 
 
 }
-
 ```  
 #### ListExamples.java  
 ```java
