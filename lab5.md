@@ -68,7 +68,7 @@ class ListExamples {
 } 
 ```
 #### ListExamples.java  
-```ruby
+```java
 import static org.junit.Assert.*;
 import org.junit.*;
 import java.util.*;
