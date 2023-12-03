@@ -12,6 +12,9 @@ lab7
 &nbsp;&nbsp;  -ListExamples.java  
 &nbsp;&nbsp;  -ListExamplesTests.java  
 &nbsp;&nbsp;  -test.sh  
+lab7
+- lab3
+- 
 #### ListExamples.java  
 ```java
 import java.util.ArrayList;
