@@ -10,6 +10,9 @@ lab7
 &nbsp;&nbsp;  -ListExamplesTests.java  
 &nbsp;&nbsp;  -test.sh  
 ### Edstem Post:  
+![Image](terminal_error.png)  
+
+
 
   
   
