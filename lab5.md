@@ -3,15 +3,7 @@
 ### Edstem Post:  
 ![Image](terminal_error.png)  
 Student: Hi! I was trying to run the tests from lab 7 after fixing some errors but this new problem has popped up. I checked the `ListExamples.java` file's methods, but I am still not able to find the problem. Can anybody help?  
-file structure:  
-lab7  
-&nbsp;&nbsp;-lib  
-&nbsp;&nbsp;&nbsp; &nbsp;    -hamcrest-core-1.3.jar  
-&nbsp;&nbsp;&nbsp; &nbsp;    -junit-4.13.2.jar  
-&nbsp;&nbsp;  -.gitignore  
-&nbsp;&nbsp;  -ListExamples.java  
-&nbsp;&nbsp;  -ListExamplesTests.java  
-&nbsp;&nbsp;  -test.sh  
+file structure:    
 lab7
 - lib3
 	- hamcrest-core-1.3.jar
