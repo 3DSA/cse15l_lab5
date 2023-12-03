@@ -3,7 +3,7 @@
 ### Edstem Post:  
 file structure:  
 lab7  
-&nbsp;  -lib  
+&nbsp;-lib  
 &nbsp; &nbsp;    -hamcrest-core-1.3.jar  
 &nbsp; &nbsp;    -junit-4.13.2.jar  
 &nbsp;  -.gitignore  
