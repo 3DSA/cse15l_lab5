@@ -118,6 +118,7 @@ class ListExamples {
     List<String> result = new ArrayList<>();
     for(String s: list) {
       if(sc.checkString(s)) {
+	//changed result.add(s) --> result(0,s)
         result.add(0,s);
       }
     }
@@ -142,10 +143,12 @@ class ListExamples {
     }
     while(index1 < list1.size()) {
       result.add(list1.get(index1));
+	// changed index2 to index1
       index1 += 1;
     }
     while(index2 < list2.size()) {
       result.add(list2.get(index2));
+	// changed index1 to index2
       index2 += 1;
     }
     return result;
