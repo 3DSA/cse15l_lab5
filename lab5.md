@@ -101,7 +101,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 Hi, checking over the `ListExamples.java` file, there seem to be errors with the `filter` and `merge` methods. For the `filter` method, check if you are adding all the necessary arguments to the `results` ArrayList. For the `merge` method, make sure you did not mix up the index arguments in the wrong spots, causing the tests to fail. Hope this helps! :)  
 ### Student Fix:
 Thanks so much for the help! I was able to fix the bugs. The error for the `filter` method seemed to be the arguments for the `results.add` method. It should be `results.add(0,s)`, not `results.add(s)`.
-For the `merge method`,  I swapped the index1 and index2 in many places accidentally. I fixed those bugs. I attached the fixed ListExamples.java below.
+For the `merge method`,  I swapped the index1 and index2 in many places accidentally. I fixed those bugs. I attached the fixed ListExamples.java below. I commented above the lines I changed.
 #### ListExamples.java
 ```java
 import java.util.ArrayList;
