@@ -11,10 +11,12 @@ lab7
 - .gitignore
 - ListExamples.java
 - ListExamplesTests.java
-- test.sh
+- test.sh  
 
-` d`  
 
+
+
+    
 #### ListExamples.java  
 ```java
 import java.util.ArrayList;
